@@ -1,8 +1,9 @@
-package com.nicovivas.controllers.implementations;
+package com.nicovivas.controllers;
 
-import com.nicovivas.controllers.interfaces.DemoController;
+import jakarta.inject.Singleton;
 import org.springframework.web.bind.annotation.RestController;
 
+@Singleton
 @RestController
 public class DemoControllerImpl implements DemoController {
 

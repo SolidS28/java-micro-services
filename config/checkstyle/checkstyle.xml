@@ -1,0 +1,7 @@
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="AvoidStarImport">
+            <property name="severity" value="warning" />
+        </module>
+    </module>
+</module>
